@@ -9,6 +9,15 @@ key_right = keyboard_check(ord("D"));
 key_left = keyboard_check(ord("A"));
 key_jump = keyboard_check_pressed(vk_space);
 
+// Run during SHIFT
+if(keyboard_check(vk_shift) && !pressedShift){
+	walkspd = walkspd * runspd;
+	pressedShift = true;
+}else{
+	walkspd = 4;
+	pressedShift = false;
+}
+
 var move = key_right - key_left;
 
 // Set move dir and speed
@@ -22,6 +31,16 @@ var onTheFloor = false;
 if(place_meeting(x, y+1, obj_Wall)){
 	
 	onTheFloor = true;
+	
+	// reset double jump
+	airjump = 1;
+}
+
+if(!onTheFloor && airjump > 0){
+	if(key_jump){
+		speed_array[1] = -5;
+		airjump -= 1;
+	}
 }
 
 if(onTheFloor) && (key_jump){

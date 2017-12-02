@@ -18,6 +18,7 @@ if(keyboard_check(vk_shift) && !pressedShift){
 	pressedShift = false;
 }
 
+
 var move = key_right - key_left;
 
 // Set move dir and speed

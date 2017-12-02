@@ -34,22 +34,8 @@ if(place_meeting(x, y+1, obj_Wall)){
 	
 	// reset double jump
 	airjump = 1;
-	canJump = true;
 }
 
-// Wall Jump right
-if(!onTheFloor && place_meeting(x-1, y, obj_Wall) && key_right && !key_left){
-	speed_array[1] = -6;
-	airjump -= 1;
-}
-
-// Wall Jump left
-if(!onTheFloor && place_meeting(x+1, y, obj_Wall) && key_left && !key_right){
-	speed_array[1] = -6;
-	airjump -= 1;
-}
-
-// Double Jump
 if(!onTheFloor && airjump > 0){
 	if(key_jump){
 		speed_array[1] = -5;
@@ -57,11 +43,9 @@ if(!onTheFloor && airjump > 0){
 	}
 }
 
-// Jump
 if(onTheFloor) && (key_jump){
 	speed_array[1] = -7;
 	onTheFloor = false;
-	canJump = false;
 }
 
 move_obj(speed_array);
@@ -91,4 +75,6 @@ if(!onTheFloor){
 if(speed_array[0] != 0){
 	image_xscale = sign(speed_array[0]);
 }
+
+
 

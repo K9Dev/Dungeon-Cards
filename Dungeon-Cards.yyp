@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "744cccf9-5925-4570-a842-fc6c0c067bf9",
+            "Value": {
+                "id": "a276de95-741c-4860-b3b4-fb03061e01da",
+                "resourcePath": "sprites\\spr_DarkSword\\spr_DarkSword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7a9a2623-4326-4a3a-a116-70cbf89f3ab4",
             "Value": {
                 "id": "2f3df7a9-0768-4b0f-bb8c-e736f330ebb8",
@@ -363,6 +371,14 @@
             "Value": {
                 "id": "3b26a7fa-bb6d-4caa-bc2e-f914b69d8b9a",
                 "resourcePath": "views\\e0527150-2e52-4da8-9e68-bb8777b1a173.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e0dd852a-f36c-45fa-8060-b97bce4110fd",
+            "Value": {
+                "id": "bcbcbcd3-6cf0-4ae6-93de-e2853c45b72a",
+                "resourcePath": "views\\e0dd852a-f36c-45fa-8060-b97bce4110fd.yy",
                 "resourceType": "GMFolder"
             }
         },

@@ -56,7 +56,7 @@ if(place_meeting(x, y+1, obj_Wall)){
 
 // Wall Jump right
 if(!onTheFloor && place_meeting(x-1, y, obj_Wall) && key_right && !key_left){
-	speed_array[1] = -6;
+	speed_array[1] = 6;
 	airjump -= 1;
 }
 

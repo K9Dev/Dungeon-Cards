@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1803e618-4cae-45a5-91b2-1ba05b5ab31f",
+            "Value": {
+                "id": "6ef020f6-3b1c-41f5-b1c1-f1d37a315c99",
+                "resourcePath": "scripts\\log\\log.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1991e754-a321-42c0-8538-f46f66208280",
             "Value": {
                 "id": "682f1bef-3d90-46c0-b476-d01c01f56657",
@@ -287,6 +295,14 @@
             }
         },
         {
+            "Key": "a76aab94-06a5-449e-80ce-7226343fa374",
+            "Value": {
+                "id": "3092a4ba-b5c2-4eb1-8f09-62cef5b5aa14",
+                "resourcePath": "sprites\\spr_Player_Attack_Darksword\\spr_Player_Attack_Darksword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a7a7b050-d889-45bc-9090-e574ce7fb661",
             "Value": {
                 "id": "10001f2f-7db8-466b-a304-ab0631ebffd0",
@@ -452,7 +468,8 @@
         "1b4a3772-299d-4390-8131-0d51692e3f01",
         "3e3e98d0-582d-4bf1-a53d-b1a5be06d60b",
         "5a281f99-4669-4c5a-9bf8-93f6763eaf74",
-        "c22161ea-90ce-4ac0-9ef1-cdcef5467b88"
+        "c22161ea-90ce-4ac0-9ef1-cdcef5467b88",
+        "1803e618-4cae-45a5-91b2-1ba05b5ab31f"
     ],
     "tutorial": ""
 }

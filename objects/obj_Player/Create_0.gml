@@ -1,7 +1,7 @@
 ///Create Player
 
 // Turn to true for Debug Drawings on GUI
-debug = false;
+debug = true;
 
 // Array to manage X and Y speeds
 speed_array = [0, 0];

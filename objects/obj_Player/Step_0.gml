@@ -13,3 +13,9 @@ if(key_dash && speed_array[0] != 0 && canDash){
 	// Reset Dash Cooldown
 	alarm[1] = room_speed * 1.6;
 }
+
+// Check Attack State
+if(key_attack && canAttack){
+	state = player_state.attack;
+	canAttack = false;
+}

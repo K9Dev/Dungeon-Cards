@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02385a5a-0c88-43a1-bec2-c5c7dd1ed561",
+            "Value": {
+                "id": "8b49253f-7a91-416c-8bba-9ca727d8affe",
+                "resourcePath": "scripts\\scr_player_attack_with_ranged_weapon\\scr_player_attack_with_ranged_weapon.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "027430eb-6e62-419c-859f-cf2bb3c26b01",
             "Value": {
                 "id": "ff53eccd-afe4-470e-8606-f826b1b16e72",
@@ -55,6 +63,22 @@
             }
         },
         {
+            "Key": "0b587ed2-73f1-41e2-a60a-b92b2b3833df",
+            "Value": {
+                "id": "70306a42-90bc-4591-b596-8143604d0d91",
+                "resourcePath": "sprites\\spr_Player_with_Darksword_Run\\spr_Player_with_Darksword_Run.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0bb68369-e0dd-4e8a-aff1-71843670e738",
+            "Value": {
+                "id": "2f39d458-510b-44f1-ad1d-a9733c699a35",
+                "resourcePath": "sprites\\spr_Player_with_Darksword_Move\\spr_Player_with_Darksword_Move.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1803e618-4cae-45a5-91b2-1ba05b5ab31f",
             "Value": {
                 "id": "6ef020f6-3b1c-41f5-b1c1-f1d37a315c99",
@@ -75,6 +99,14 @@
             "Value": {
                 "id": "67332a59-39d0-40d9-a666-cb1c82f88ae1",
                 "resourcePath": "scripts\\scr_player_move\\scr_player_move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1e044bd4-fb07-419c-81fb-647eed22e176",
+            "Value": {
+                "id": "be441b11-e07b-4621-9880-dcb31fa613a7",
+                "resourcePath": "scripts\\scr_player_attack\\scr_player_attack.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -103,6 +135,14 @@
             }
         },
         {
+            "Key": "2a72a9ee-a13b-4e31-b9fe-a342b0db093e",
+            "Value": {
+                "id": "f0fae2a5-34a8-491c-9b94-27be22b0946c",
+                "resourcePath": "objects\\Parent_Enemy\\Parent_Enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2a7a85ac-280b-4fba-862e-b25356df2222",
             "Value": {
                 "id": "5c1bcedc-147f-45a7-918f-ed3e1c67a54e",
@@ -119,11 +159,27 @@
             }
         },
         {
+            "Key": "32a53829-68e5-4fd3-a99b-8e51430396c3",
+            "Value": {
+                "id": "74b88ed2-0525-4401-a6aa-22dd3d1df8f3",
+                "resourcePath": "sprites\\Enemy_Test\\Enemy_Test.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "32ac1d54-96e5-4c0d-b7d7-ccc814afef5d",
             "Value": {
                 "id": "5a87c7cf-678e-41f6-b12f-bebc26f7f829",
                 "resourcePath": "views\\32ac1d54-96e5-4c0d-b7d7-ccc814afef5d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "333dfcf7-e9e6-43c5-bbd9-ef64d3fdbc95",
+            "Value": {
+                "id": "60ead80c-59fb-406e-9f74-2d0dfa3ca6be",
+                "resourcePath": "scripts\\scr_get_player_sprite\\scr_get_player_sprite.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -151,11 +207,35 @@
             }
         },
         {
+            "Key": "436fd6aa-079d-4d5d-a6fd-becf56458c8f",
+            "Value": {
+                "id": "ab7054a3-b195-4de8-9abd-2879241b45dc",
+                "resourcePath": "sprites\\spr_HandGun\\spr_HandGun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4433eb2c-ad61-4149-8b29-ffc22fded116",
+            "Value": {
+                "id": "8b787d71-08e9-4bbf-97b0-92e95daf6d0d",
+                "resourcePath": "sprites\\spr_Player_Attack_Darksword_hitbox\\spr_Player_Attack_Darksword_hitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "484b7093-b40c-42e7-8335-f1ede8ada78d",
             "Value": {
                 "id": "9176ca1e-8f1f-46fa-8159-bf7e657a7c1a",
                 "resourcePath": "views\\484b7093-b40c-42e7-8335-f1ede8ada78d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "498cb50d-6382-4fd9-8fb1-b993da910e6b",
+            "Value": {
+                "id": "03b0bdf0-53d1-4876-9078-cf8c47cf5fce",
+                "resourcePath": "scripts\\scr_player_attack_with_weapon\\scr_player_attack_with_weapon.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -171,6 +251,14 @@
             "Value": {
                 "id": "4e19f52b-9507-4225-a756-6d277b0017d9",
                 "resourcePath": "views\\4c753643-5685-449a-b3e0-6645f85dfd11.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4eb71ec1-3f7e-4cb3-bb78-1290c15ecc7a",
+            "Value": {
+                "id": "c161c792-5c9f-4fd3-bb58-d0b3d533dbfa",
+                "resourcePath": "views\\4eb71ec1-3f7e-4cb3-bb78-1290c15ecc7a.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -271,6 +359,14 @@
             }
         },
         {
+            "Key": "96da8a74-41fa-4794-86da-46b84db2945e",
+            "Value": {
+                "id": "1bf1e817-2765-4f68-bae4-2a2645e8808d",
+                "resourcePath": "sprites\\spr_Player_with_Darksword_Idle\\spr_Player_with_Darksword_Idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "98d541d5-e52f-45b5-9750-25ebb1d7979a",
             "Value": {
                 "id": "25c5ca9b-faf9-4f16-bb01-fd8b91a00da2",
@@ -284,6 +380,14 @@
                 "id": "beb5860a-2c79-40ae-a034-d8fb3fb3951c",
                 "resourcePath": "views\\9a5ae86f-a4fd-4be6-bffb-b27fdd5ebfcc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9bf821bb-1ed1-45ee-ba57-e22505c84dcd",
+            "Value": {
+                "id": "8b50802c-65e5-42a6-8415-f70a975708e2",
+                "resourcePath": "scripts\\scr_draw_player_with_weapons\\scr_draw_player_with_weapons.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -316,6 +420,22 @@
                 "id": "0f2f8983-a8fd-46af-a885-4850f9876984",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aefddbda-396b-4fbd-9413-3cc5e0ad8f2c",
+            "Value": {
+                "id": "c146dbea-935c-49f4-a8da-c36bb6fcc453",
+                "resourcePath": "objects\\obj_WeaponControler\\obj_WeaponControler.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b1da67e1-b402-4126-a85f-48cb94facf31",
+            "Value": {
+                "id": "6cc10677-c0d7-47e7-a04b-4b019ab22662",
+                "resourcePath": "sprites\\spr_Bullet\\spr_Bullet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -359,6 +479,14 @@
             }
         },
         {
+            "Key": "d053b23c-e7a6-4ecd-a977-123ea5a4e591",
+            "Value": {
+                "id": "36ce3248-e4a1-479f-afbc-ee4a2f3b74a4",
+                "resourcePath": "scripts\\scr_shoot_gun\\scr_shoot_gun.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d56288f3-24b7-4f03-bd5e-b5cfc3ba1832",
             "Value": {
                 "id": "e96bfc39-0d8d-4c4a-b8d5-7966efd84180",
@@ -372,6 +500,14 @@
                 "id": "af1751c4-4f01-4673-80d3-c1faaa611c3a",
                 "resourcePath": "views\\db113b72-816f-4730-a634-e6499326769c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dcbb101f-a465-4907-a70b-8dc5e00e6145",
+            "Value": {
+                "id": "16e5c21e-7bf8-452a-a0d7-ac0815eb78ec",
+                "resourcePath": "sprites\\spr_Player_with_Darksword_Air\\spr_Player_with_Darksword_Air.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -399,11 +535,27 @@
             }
         },
         {
+            "Key": "e3d9171a-3c09-4e1a-a687-c9760c328718",
+            "Value": {
+                "id": "9a365acf-4b5b-4b60-9fc1-2768409bbf98",
+                "resourcePath": "objects\\obj_Enemy_Test\\obj_Enemy_Test.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e4fc3556-e3d4-4b5d-a170-059cf65a0e5d",
             "Value": {
                 "id": "c39f146a-f6d9-49e6-af3a-135f0c25f50b",
                 "resourcePath": "sprites\\spr_Player\\spr_Player.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ed00f7e6-6c72-4d5a-8c56-ee31a3eaa6a4",
+            "Value": {
+                "id": "edf9012a-edd5-4e29-a78b-fae974cdd914",
+                "resourcePath": "views\\ed00f7e6-6c72-4d5a-8c56-ee31a3eaa6a4.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -439,6 +591,14 @@
             }
         },
         {
+            "Key": "f5c78a2d-41cc-47f2-90cb-2723de5574d3",
+            "Value": {
+                "id": "4ce5df9a-d583-4722-b0b0-eecc8678540d",
+                "resourcePath": "objects\\obj_darksword_hitbox\\obj_darksword_hitbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f73fad54-7962-497d-806a-d93cdac13690",
             "Value": {
                 "id": "bf0a63ae-009f-418f-bae2-12a48f728fe9",
@@ -461,15 +621,37 @@
                 "resourcePath": "views\\fb52ae59-0ace-468f-923a-6ccd7231548c.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fbe5ba4d-85cf-451d-8208-69813326f8d9",
+            "Value": {
+                "id": "7f9cb383-98a9-4377-bd2d-cad42618188b",
+                "resourcePath": "objects\\obj_Bullet\\obj_Bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fd2614af-9caa-4512-9d5c-5cb5b139ade3",
+            "Value": {
+                "id": "46af587f-953d-4b08-b339-730a72115f2b",
+                "resourcePath": "views\\fd2614af-9caa-4512-9d5c-5cb5b139ade3.yy",
+                "resourceType": "GMFolder"
+            }
         }
     ],
     "script_order": [
         "7a9a2623-4326-4a3a-a116-70cbf89f3ab4",
         "1b4a3772-299d-4390-8131-0d51692e3f01",
         "3e3e98d0-582d-4bf1-a53d-b1a5be06d60b",
+        "1e044bd4-fb07-419c-81fb-647eed22e176",
+        "498cb50d-6382-4fd9-8fb1-b993da910e6b",
+        "02385a5a-0c88-43a1-bec2-c5c7dd1ed561",
+        "d053b23c-e7a6-4ecd-a977-123ea5a4e591",
         "5a281f99-4669-4c5a-9bf8-93f6763eaf74",
         "c22161ea-90ce-4ac0-9ef1-cdcef5467b88",
-        "1803e618-4cae-45a5-91b2-1ba05b5ab31f"
+        "1803e618-4cae-45a5-91b2-1ba05b5ab31f",
+        "9bf821bb-1ed1-45ee-ba57-e22505c84dcd",
+        "333dfcf7-e9e6-43c5-bbd9-ef64d3fdbc95"
     ],
     "tutorial": ""
 }

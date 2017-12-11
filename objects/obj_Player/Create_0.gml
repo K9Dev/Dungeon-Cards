@@ -5,6 +5,7 @@ debug = true;
 
 // Array to manage X and Y speeds
 speed_array = [0, 0];
+move = 0;
 
 // Gravity
 grav = 0.3;
@@ -29,3 +30,8 @@ state = player_state.move;
 // Player Stats
 hp = 150;
 
+// Players Weapon
+//current_weapon = weapons.darkSword;
+current_weapon = weapons.gun;
+has_weapon = true;
+canAttack = true;

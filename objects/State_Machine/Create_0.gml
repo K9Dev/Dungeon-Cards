@@ -11,3 +11,16 @@ enum player_state{
 }
 
 //Enemy States
+enum enemy_state{
+	move,
+	patrol,
+	idle,
+	attack,
+	run
+}
+
+// Weapons
+enum weapons{
+	darkSword, 
+	gun
+}

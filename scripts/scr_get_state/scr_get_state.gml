@@ -10,4 +10,8 @@ switch(state){
 	case player_state.dash:
 		scr_player_dash();
 		break;
+		
+	case player_state.attack:
+		scr_player_attack(current_weapon);
+		break;
 }

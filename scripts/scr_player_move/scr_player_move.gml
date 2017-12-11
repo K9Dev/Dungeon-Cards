@@ -15,7 +15,7 @@ if(key_shift && !pressedShift){
 }
 
 //var move = key_right - key_left;
-var move = 0;
+move = 0;
 
 if(key_left){
 	move = -1;
@@ -55,8 +55,8 @@ if(place_meeting(x, y+1, obj_Wall)){
 }
 
 // Wall Jump right
-if(!onTheFloor && place_meeting(x-1, y, obj_Wall) && key_right && !key_left){
-	speed_array[1] = 6;
+if(!onTheFloor && place_meeting(x-1, y, obj_Wall) && key_right){
+	speed_array[1] = -6;
 	airjump -= 1;
 }
 
@@ -85,7 +85,11 @@ move_obj(speed_array);
 // Animation
 // Air
 if(!onTheFloor){
-	sprite_index = spr_Player_Air;
+
+	//sprite_index = spr_Player_Air;
+	
+	scr_get_player_sprite(player_state.inair);
+	
 	image_speed = 0;
 	
 	if(sign(speed_array[1]) > 0){
@@ -95,15 +99,27 @@ if(!onTheFloor){
 	}
 }else{
 
+	//image_speed = 1;
+	
+	//if(speed_array[0] == 0){
+	//	sprite_index = spr_Player_Idle;
+	//}else{
+	//	if(pressedShift){
+	//		sprite_index = spr_Player_Run;
+	//	}else{
+	//		sprite_index = spr_Player_Move;
+	//	}
+	//}
+	
 	image_speed = 1;
 	
 	if(speed_array[0] == 0){
-		sprite_index = spr_Player_Idle;
+		scr_get_player_sprite(player_state.idle);
 	}else{
 		if(pressedShift){
-			sprite_index = spr_Player_Run;
+			scr_get_player_sprite(player_state.run);
 		}else{
-			sprite_index = spr_Player_Move;
+			scr_get_player_sprite(player_state.move);
 		}
 	}
 }
@@ -111,3 +127,5 @@ if(!onTheFloor){
 if(speed_array[0] != 0){
 	image_xscale = sign(speed_array[0]);
 }
+
+depth = -100;

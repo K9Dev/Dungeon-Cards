@@ -55,13 +55,13 @@ if(place_meeting(x, y+1, obj_Wall)){
 }
 
 // Wall Jump right
-if(!onTheFloor && place_meeting(x-1, y, obj_Wall) && key_right){
+if(!onTheFloor && place_meeting(x-0.5, y, obj_Wall) && key_right){
 	speed_array[1] = -6;
 	airjump -= 1;
 }
 
 // Wall Jump left
-if(!onTheFloor && place_meeting(x+1, y, obj_Wall) && key_left && !key_right){
+if(!onTheFloor && place_meeting(x+0.5, y, obj_Wall) && key_left && !key_right){
 	speed_array[1] = -6;
 	airjump -= 1;
 }

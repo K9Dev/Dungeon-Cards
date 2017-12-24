@@ -9,4 +9,7 @@ if(debug){
 
 	draw_text(200, 650,"Player Sprites: Idle = " + string(spr_Player_Idle) + ", Move = " + string(spr_Player_Move));
 	draw_text(200, 670,"Player Sprites: Run = " + string(spr_Player_Run) + ", Air = " + string(spr_Player_Air));
+	
+	draw_text(200, 710,"Player ImageXScale: " + string(image_xscale));
+	draw_text(200, 730,"Player Move:  = " + string(move));
 }

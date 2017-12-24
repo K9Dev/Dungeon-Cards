@@ -1,6 +1,8 @@
 
 var speed_array = argument0;
 
+var playerXscale = image_xscale;
+
 with(instance_create_depth(x, y + 20, depth - 100, obj_Bullet)){
 			speed = 20;
 			
@@ -10,7 +12,12 @@ with(instance_create_depth(x, y + 20, depth - 100, obj_Bullet)){
 			if(dir == -1){
 				direction = 180;
 			}else{
-				direction = 0;
+				
+				if(playerXscale == -1){
+					direction = 180;
+				}else{
+					direction = 0;
+				}
 			}
 			
 			//direction = other.image_angle + random_range(-1,1);

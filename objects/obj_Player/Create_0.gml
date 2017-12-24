@@ -32,6 +32,6 @@ hp = 150;
 
 // Players Weapon
 //current_weapon = weapons.darkSword;
-current_weapon = weapons.gun;
+current_weapon = weapons.darkSword;
 has_weapon = true;
 canAttack = true;

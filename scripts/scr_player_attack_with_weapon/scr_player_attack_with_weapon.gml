@@ -11,6 +11,32 @@ if(pressedShift){
 speed_array[0] = move * spd;
 speed_array[1] += grav;
 
+var onTheFloor = false;
+
+// Check if on Floor and jump
+if(place_meeting(x, y+1, obj_Wall)){
+	
+	onTheFloor = true;
+	
+	// reset double jump
+	airjump = 1;
+	canJump = true;
+}
+
+// Double Jump
+if(!onTheFloor && airjump > 0){
+	if(key_jump){
+		speed_array[1] = -5;
+		airjump -= 1;
+	}
+}
+
+// Jump
+if(onTheFloor) && (key_jump){
+	speed_array[1] = -7;
+	onTheFloor = false;
+}
+
 move_obj(speed_array); 
 
 

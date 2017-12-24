@@ -423,6 +423,22 @@
             }
         },
         {
+            "Key": "adf6f991-6ecd-4adc-99a9-1c8a7deb6936",
+            "Value": {
+                "id": "6b93e6aa-fd93-47b8-98eb-eea0a8110660",
+                "resourcePath": "objects\\obj_collision_mask\\obj_collision_mask.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ae84439a-5805-472b-bfd6-e3f5d41cfda5",
+            "Value": {
+                "id": "7c3d7b74-299f-4bc5-b047-08606358810a",
+                "resourcePath": "sprites\\spr_Player_Collision_Mask\\spr_Player_Collision_Mask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "aefddbda-396b-4fbd-9413-3cc5e0ad8f2c",
             "Value": {
                 "id": "c146dbea-935c-49f4-a8da-c36bb6fcc453",
@@ -596,6 +612,14 @@
                 "id": "4ce5df9a-d583-4722-b0b0-eecc8678540d",
                 "resourcePath": "objects\\obj_darksword_hitbox\\obj_darksword_hitbox.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f686ba8e-a14d-4ec0-97ef-91c398e4dda2",
+            "Value": {
+                "id": "6a32fabf-1468-406a-b220-952d5abb320f",
+                "resourcePath": "sprites\\sprite17\\sprite17.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

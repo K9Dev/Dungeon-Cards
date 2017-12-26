@@ -2,4 +2,8 @@
 
 var msg = argument0;
 
-show_debug_message(msg);
+var debug = true;
+
+if(debug){
+	show_debug_message(msg);
+}

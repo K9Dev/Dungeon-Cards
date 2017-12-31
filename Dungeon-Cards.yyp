@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "9d2a3c82-6919-44d7-ba77-3e0e403aa4a4",
+            "Value": {
+                "id": "5622245f-33a4-4675-9e87-5654a91985e9",
+                "resourcePath": "scripts\\scr_check_for_hovering_item\\scr_check_for_hovering_item.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a1bcd9db-fddf-4741-9698-94eee1f286f4",
             "Value": {
                 "id": "e15921e0-40f9-4ba6-9e40-c173948a2da3",
@@ -842,7 +850,8 @@
         "6de23edc-74ad-4a9b-9c6b-27abf5ed3326",
         "a3bb0d2c-585e-4376-a7c7-02912a424a49",
         "49a3f48c-246d-4481-a97e-5a25e41ce3de",
-        "03ab703b-8c1e-4639-a23b-d75bd344249a"
+        "03ab703b-8c1e-4639-a23b-d75bd344249a",
+        "9d2a3c82-6919-44d7-ba77-3e0e403aa4a4"
     ],
     "tutorial": ""
 }

@@ -1,9 +1,13 @@
 /// Add a random item to the inventory for debuging
 
+if(!invOpen){
+	return;
+}
+
 var gx = x_to_gx(mouse_x);
 var gy = y_to_gy(mouse_y);
 
-var item = choose(global.arrayWeapons[1,0], global.arrayWeapons[2,0], global.arrayWeapons[3,0]);
+var item = choose(global.arrayWeapons[1,0], global.arrayWeapons[2,0]);
 
 log("Clicked on-- GX: " + string(gx) + " GY: " + string(gy));
 

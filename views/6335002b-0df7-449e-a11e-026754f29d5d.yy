@@ -10,7 +10,8 @@
         "6de23edc-74ad-4a9b-9c6b-27abf5ed3326",
         "a3bb0d2c-585e-4376-a7c7-02912a424a49",
         "49a3f48c-246d-4481-a97e-5a25e41ce3de",
-        "03ab703b-8c1e-4639-a23b-d75bd344249a"
+        "03ab703b-8c1e-4639-a23b-d75bd344249a",
+        "9d2a3c82-6919-44d7-ba77-3e0e403aa4a4"
     ],
     "filterType": "GMScript",
     "folderName": "Inventory Helper",

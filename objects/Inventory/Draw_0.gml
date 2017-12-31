@@ -18,8 +18,19 @@ for(var yy = 0; yy < width; yy++){
 		
 		if(spriteToDraw != -4){			
 			
-			//log("Drawing: " + string(spriteToDraw) + " at coors -- X: " + string(tempX) + "  Y: " + string(tempY));
-			draw_sprite(spr_all_items, spriteToDraw, tempX, tempY);	
+			/*var itemListCount = ds_list_size(global.all_item_instances);
+			
+			var itemHovering = scr_check_for_hovering_item(itemListCount);
+			
+			if(itemHovering != noone){
+				var img_index = itemHovering.image_index + 1;
+				
+				draw_sprite(spr_all_items, img_index, tempX, tempY);	
+				*/
+			//}else{
+				//log("Drawing: " + string(spriteToDraw) + " at coors -- X: " + string(tempX) + "  Y: " + string(tempY));
+				draw_sprite(spr_all_items, spriteToDraw, tempX, tempY);	
+			//}
 			
 			//log("Count = " + string(count[# xx, yy]));
 			if(count[# xx, yy] > 0){

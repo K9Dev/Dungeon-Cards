@@ -41,8 +41,8 @@ global.arrayWeapons[0,7] = "";
 global.arrayWeapons[0,8] = "";
 
 // Uncommon Weapon
-global.arrayWeapons[1,0] = 1;
-global.arrayWeapons[1,1] = "Uncommon Sword";
+global.arrayWeapons[1,0] = 2;
+global.arrayWeapons[1,1] = "Dark Sword";
 global.arrayWeapons[1,2] = "1-H Sword";
 global.arrayWeapons[1,3] = "17-19 Damage";
 global.arrayWeapons[1,4] = "Your soul will be mine...";
@@ -52,8 +52,8 @@ global.arrayWeapons[1,7] = "";
 global.arrayWeapons[1,8] = "Requires Level 5";
 
 // Rare Weapon
-global.arrayWeapons[2,0] = 2;
-global.arrayWeapons[2,1] = "Rare Gun";
+global.arrayWeapons[2,0] = 4;
+global.arrayWeapons[2,1] = "XR Gun";
 global.arrayWeapons[2,2] = "1-H Gun";
 global.arrayWeapons[2,3] = "35-60 Damage";
 global.arrayWeapons[2,4] = "It's high noon.";
@@ -63,7 +63,8 @@ global.arrayWeapons[2,7] = "+3 Agility";
 global.arrayWeapons[2,8] = "Requires Level 15";
 
 // Epic Weapon
-global.arrayWeapons[3,0] = 2;
+/*
+global.arrayWeapons[3,0] = 4;
 global.arrayWeapons[3,1] = "Epic Axe";
 global.arrayWeapons[3,2] = "2-H Axe";
 global.arrayWeapons[3,3] = "80-115 Damage";
@@ -72,7 +73,7 @@ global.arrayWeapons[3,5] = global.colEpic;
 global.arrayWeapons[3,6] = "+15 Strength";
 global.arrayWeapons[3,7] = "-2 Agility";
 global.arrayWeapons[3,8] = "Requires Level 30";
-/*
+
 // Legendary Weapon
 global.arrayWeapons[4,0] = sprLegendary;
 global.arrayWeapons[4,1] = "Legendary Axe";

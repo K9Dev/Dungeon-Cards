@@ -25,7 +25,7 @@ draw_set_alpha(1); // set alpha back
 draw_rectangle_colour(mouse_x+20,mouse_y,mouse_x+270,mouse_y+170,hudbg2,hudbg2,hudbg2,hudbg2,1);
 
 // Draw the weapon icon
-draw_sprite(spr_all_items,icon,mouse_x+3,mouse_y+3);
+draw_sprite(spr_all_items,icon,mouse_x+23,mouse_y+3);
 
 // Set the font for the name
 draw_set_font(fntHud);
@@ -43,7 +43,7 @@ draw_text_ext_colour(mouse_x+25+40,mouse_y+25,string_hash_to_newline(string(type
 draw_text_ext_colour(mouse_x+25,mouse_y+45,string_hash_to_newline(string(dmg)),0,245,bonuscolor,bonuscolor,bonuscolor,bonuscolor,1);
 
 // Draw the description for the weapon
-draw_text_ext_colour(mouse_x+25,mouse_y+65,string_hash_to_newline(string(desc)),20,245,c_white,c_white,c_white,c_white,1);
+draw_text_ext_colour(mouse_x+25,mouse_y+85,string_hash_to_newline(string(desc)),20,245,c_white,c_white,c_white,c_white,1);
 
 // Draw the bonus 1
 draw_text_ext_colour(mouse_x+25,mouse_y+105,string_hash_to_newline(string(bonus1)),0,100,bonuscolor,bonuscolor,bonuscolor,bonuscolor,1);

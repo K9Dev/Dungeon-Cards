@@ -2,27 +2,27 @@
 
 var item = argument0;
 
-// Check for item in inventory
-for(var yy = 0; yy < Inventory.height; yy++){
-	for(var xx = 0; xx < Inventory.width; xx++){
-		if(Inventory.box[# xx, yy] == item){
-			Inventory.count[# xx, yy]++;
-			log("Added one count to " + string(Inventory.box[# xx, yy]));
+// Check for item in global.invObj
+for(var yy = 0; yy < global.invObj.height; yy++){
+	for(var xx = 0; xx < global.invObj.width; xx++){
+		if(global.invObj.box[# xx, yy] == item){
+			global.invObj.count[# xx, yy]++;
+			log("Added one count to " + string(global.invObj.box[# xx, yy]));
 			return true;
 		}	
 	}
 
 }
 
-// Check for empty slot in inventory
-for(var yy = 0; yy < Inventory.height; yy++){
-	for(var xx = 0; xx < Inventory.width; xx++){
-		if(Inventory.box[# xx, yy] == global.arrayWeapons[0,0]){
-			Inventory.box[# xx, yy] = item;
-			Inventory.count[# xx, yy]++;
+// Check for empty slot in global.invObj
+for(var yy = 0; yy < global.invObj.height; yy++){
+	for(var xx = 0; xx < global.invObj.width; xx++){
+		if(global.invObj.box[# xx, yy] == global.arrayWeapons[0,0]){
+			global.invObj.box[# xx, yy] = item;
+			global.invObj.count[# xx, yy]++;
 			
-			var objX = Inventory.x + (xx * box_size);
-			var objY = Inventory.y + (yy * box_size);
+			var objX = global.invObj.x + (xx * box_size);
+			var objY = global.invObj.y + (yy * box_size);
 	
 			if(instance_position(objX, objY, obj_Item) == noone){
 				var obj = instance_create_depth(objX, objY, 100, obj_Item);
@@ -37,7 +37,7 @@ for(var yy = 0; yy < Inventory.height; yy++){
 				}
 			}
 			
-			log("Added new item " + string(Inventory.box[# xx, yy]));
+			log("Added new item " + string(global.invObj.box[# xx, yy]));
 			
 			return true;
 		}	

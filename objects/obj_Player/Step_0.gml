@@ -1,6 +1,8 @@
 /// Step Event
 scr_get_input();
 
+scr_check_for_inv();
+
 scr_get_state(state);
 
 // Check Dash State

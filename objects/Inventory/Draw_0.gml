@@ -2,10 +2,14 @@
 
 //log("Inventory: Starting draw event");
 
+draw_self();
+
 for(var yy = 0; yy < width; yy++){
 	for(var xx = 0; xx < height; xx++){
-		var tempX = x + (xx * box_size);
-		var tempY = y + (yy * box_size);
+		
+		// Add 7 and 35 to Coors for positioning in Inventory
+		var tempX = x + 7 + (xx * box_size);
+		var tempY = y + 35 + (yy * box_size);
 			
 		//log("Check Coors-- XX: " + string(xx) + " YY: " + string(yy));
 		var spriteToDraw = box[# xx, yy];
@@ -24,8 +28,11 @@ for(var yy = 0; yy < width; yy++){
 				draw_text_color(tempX + 6, tempY + 5, "x" + string(count[# xx, yy]), c_black, c_black, c_black, c_black, 1);
 			}
 		} else {
-			draw_sprite(spr_all_items, 0, tempX, tempY);
+				draw_sprite(spr_all_items, 0, tempX, tempY);			
 		}
 		
 	}
 }
+
+// Add Background
+//image_index = spr_inventory_bg;

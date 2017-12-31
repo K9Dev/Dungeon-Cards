@@ -3,27 +3,29 @@
 var xx = argument[0];
 var yy = argument[1];
 
+var inv = global.invObj;
+
 // Check for out of Range
-if(xx != median(0, xx, Inventory.width-1) || yy != median(0, yy, Inventory.height-1)){
+if(xx != median(0, xx, global.invObj.width-1) || yy != median(0, yy, global.invObj.height-1)){
 	log("The x and y are outside of the range.");
 	exit;
 }
 
 // Get the item count
-var item_count = Inventory.count[# xx, yy];
+var item_count = global.invObj.count[# xx, yy];
 
 // Make sure we have items
 if(item_count > 0){
 	// Substract one from the Item Count
-	Inventory.count[# xx, yy]--;
+	global.invObj.count[# xx, yy]--;
 	
 	// Get access to remove item
-	var remove_item = Inventory.box[# xx, yy];
+	var remove_item = global.invObj.box[# xx, yy];
 	
 	// Check for last Item
 	if(item_count == 1){
 		// Set item box to empty
-		Inventory.box[# xx, yy] = global.arrayWeapons[0,0];
+		global.invObj.box[# xx, yy] = global.arrayWeapons[0,0];
 		
 		var objX = mouse_x;
 		var objY = mouse_y;

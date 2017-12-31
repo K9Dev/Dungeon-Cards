@@ -39,7 +39,6 @@ global.arrayWeapons[0,5] = global.colCommon;
 global.arrayWeapons[0,6] = "";
 global.arrayWeapons[0,7] = "";
 global.arrayWeapons[0,8] = "";
-global.arrayWeapons[0,9] = noone;
 
 // Uncommon Weapon
 global.arrayWeapons[1,0] = 1;
@@ -51,7 +50,6 @@ global.arrayWeapons[1,5] = global.colUncommon;
 global.arrayWeapons[1,6] = "+5 Strength";
 global.arrayWeapons[1,7] = "";
 global.arrayWeapons[1,8] = "Requires Level 5";
-global.arrayWeapons[1,9] = noone;
 
 // Rare Weapon
 global.arrayWeapons[2,0] = 2;
@@ -63,7 +61,6 @@ global.arrayWeapons[2,5] = global.colRare;
 global.arrayWeapons[2,6] = "+5 Strength";
 global.arrayWeapons[2,7] = "+3 Agility";
 global.arrayWeapons[2,8] = "Requires Level 15";
-global.arrayWeapons[2,9] = noone;
 
 // Epic Weapon
 global.arrayWeapons[3,0] = 2;
@@ -75,7 +72,6 @@ global.arrayWeapons[3,5] = global.colEpic;
 global.arrayWeapons[3,6] = "+15 Strength";
 global.arrayWeapons[3,7] = "-2 Agility";
 global.arrayWeapons[3,8] = "Requires Level 30";
-global.arrayWeapons[3,9] = noone;
 /*
 // Legendary Weapon
 global.arrayWeapons[4,0] = sprLegendary;

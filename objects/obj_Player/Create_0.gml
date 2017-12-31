@@ -35,3 +35,5 @@ hp = 150;
 current_weapon = weapons.darkSword;
 has_weapon = true;
 canAttack = true;
+
+invOpen = false;

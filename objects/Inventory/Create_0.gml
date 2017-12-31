@@ -4,6 +4,10 @@
 
 draw_set_font(inv_txt_font);
 
+visible = false;
+
+global.invObj = object_index;
+
 width = 4;
 height = 4;
 

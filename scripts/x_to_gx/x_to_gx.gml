@@ -1,8 +1,8 @@
 /// x_to_gx(x)
 
-var xx = argument0;
+var xx = argument0 - 7;
 
-log("Given X: " + string(xx) + "   Inv X: " + string(Inventory.x));
+//log("Given X: " + string(xx) + "   Inv X: " + string(Inventory.x));
 
 if (xx < Inventory.x){
 	return -1;
@@ -10,5 +10,5 @@ if (xx < Inventory.x){
 
 var result = (xx - Inventory.x) div Inventory.box_size;
 
-log("Returning Value: " + string(result));
+//log("Returning Value: " + string(result));
 return result;

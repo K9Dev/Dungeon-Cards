@@ -1,5 +1,7 @@
 ///scr_player_dash
 
+canAttack = true;
+
 var move = key_right - key_left;
 
 speed_array[0] = move * dash_spd;

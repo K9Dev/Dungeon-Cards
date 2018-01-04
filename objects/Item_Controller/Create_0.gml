@@ -1,6 +1,6 @@
 /// 
 
-log("CREATING ITEM CONTROLLER");
+//log("CREATING ITEM CONTROLLER");
 
 
 /// Create global weapons

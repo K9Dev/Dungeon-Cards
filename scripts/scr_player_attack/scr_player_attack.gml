@@ -2,16 +2,19 @@
 var weapon = argument0;
 
 switch(weapon){
-	case weapons.darkSword:
+	case weapons.DarkSword:
 		var darkSwordSprite = spr_Player_Attack_Darksword;
-		var darkSwordHitboxSprite = spr_Player_Attack_Darksword_hitbox;
+		var darkSwordHitbox = obj_darksword_hitbox;
+		var darkSwordDmg = obj_WeaponControler.darkSwordAttackDmg;
 		
-		scr_player_attack_with_weapon(darkSwordSprite, darkSwordHitboxSprite);
+		//log("Attacking with Sword.. Hitboxsprite = " + sprite_get_name(darkSwordHitbox));
+		scr_player_attack_with_weapon(darkSwordSprite, darkSwordHitbox, darkSwordDmg);
 		
 		break;
 		
-	case weapons.gun:		
-		scr_player_attack_with_ranged_weapon(weapons.gun);
+	case weapons.HandGun:	
+		log("Attacking with Gun..");
+		scr_player_attack_with_ranged_weapon(weapon);
 		
 		break;
 }

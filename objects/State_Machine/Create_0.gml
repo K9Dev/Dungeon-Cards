@@ -21,6 +21,6 @@ enum enemy_state{
 
 // Weapons
 enum weapons{
-	darkSword, 
-	gun
+	DarkSword, 
+	HandGun
 }

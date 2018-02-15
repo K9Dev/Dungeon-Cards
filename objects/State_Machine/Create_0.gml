@@ -12,11 +12,21 @@ enum player_state{
 
 //Enemy States
 enum enemy_state{
-	move,
-	patrol,
+	moving,
 	idle,
-	attack,
+	patrol,
+	attacking,
+	hit,
 	run
+}
+
+// Enemy Modus
+enum enemy_modus{
+	idle,
+	patrol,
+	alert,
+	fight,
+	hurt
 }
 
 // Weapons

@@ -11,6 +11,7 @@ if(place_meeting(x+speed_array[0], y, obj_Wall)){
 	}
 	
 	speed_array[@ 0] = 0;
+	hspd = 0;
 }
 x += speed_array[0];
 
@@ -22,6 +23,7 @@ if(place_meeting(x, y+speed_array[1], obj_Wall)){
 	}
 	
 	speed_array[@ 1] = 0;
+	vspd = 0;
 	onTheFloor = true;
 }
 y += speed_array[1];

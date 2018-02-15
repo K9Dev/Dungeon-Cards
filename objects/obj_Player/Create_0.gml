@@ -5,6 +5,8 @@ debug = true;
 
 // Array to manage X and Y speeds
 speed_array = [0, 0];
+hspd = 0;
+vspd = 0;
 move = 0;
 onTheFloor = 1;
 

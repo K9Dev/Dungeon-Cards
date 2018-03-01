@@ -32,9 +32,9 @@ if(key_right){
 }
 
 // Set move dir and speed
-speed_array[0] = move * walkspd;
+hspd = move * walkspd;
 
-speed_array[1] += grav;
+vspd += grav;
 
 // Check if on Floor and jump
 if(place_meeting(x, y + 1, obj_Wall)){
@@ -48,7 +48,7 @@ if(place_meeting(x, y + 1, obj_Wall)){
 
 // Wall Jump right
 if(!onTheFloor && place_meeting(x - 1, y, obj_Wall) && key_right){
-	speed_array[1] = -6;
+	vspd = -6;
 	airjump -= 1;
 	
 	//log("Walljump right..");
@@ -56,7 +56,7 @@ if(!onTheFloor && place_meeting(x - 1, y, obj_Wall) && key_right){
 
 // Wall Jump left
 if(!onTheFloor && place_meeting(x + 1, y, obj_Wall) && key_left && !key_right){
-	speed_array[1] = -6;
+	vspd = -6;
 	airjump -= 1;
 	
 	//log("Walljump left..");
@@ -65,19 +65,19 @@ if(!onTheFloor && place_meeting(x + 1, y, obj_Wall) && key_left && !key_right){
 // Double Jump
 if(!onTheFloor && airjump > 0){
 	if(key_jump){
-		speed_array[1] = -5;
+		vspd = -5;
 		airjump -= 1;
 	}
 }
 
 // Jump
 if(onTheFloor) && (key_jump){
-	speed_array[1] = -7;
+	vspd = -7;
 	onTheFloor = false;
 }
 
 // Check Dash State
-if(key_dash && speed_array[0] != 0 && canDash){
+if(key_dash && hspd != 0 && canDash){
 	state = player_state.dash;
 	
 	// Set Move State

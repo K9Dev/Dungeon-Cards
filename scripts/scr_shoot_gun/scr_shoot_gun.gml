@@ -1,12 +1,12 @@
-/// scr_shoot_gun(speed_array, projectil, yOffset, projectileSpeed, isAutomaticWeapon, shootDelay)
-var speed_array = argument0;
-
-var projectil = argument1;
-var xOffset = argument2;
-var yOffset = argument3;
-var projectileSpeed = argument4;
-var isAutomaticWeapon = argument5;
-var shootDelay = argument6;
+/// scr_shoot_gun(hspd, vspd, projectil, yOffset, projectileSpeed, isAutomaticWeapon, shootDelay)
+var hspd = argument0;
+var vspd = argument1;
+var projectil = argument2;
+var xOffset = argument3;
+var yOffset = argument4;
+var projectileSpeed = argument5;
+var isAutomaticWeapon = argument6;
+var shootDelay = argument7;
 
 var playerXscale = image_xscale;
 
@@ -32,7 +32,7 @@ if(isAutomaticWeapon){
 			
 				image_speed = 2;
 				
-				var dir = sign(speed_array[0]);
+				var dir = sign(hspd);
 			
 				if(dir == -1){
 					direction = 180;
@@ -66,7 +66,7 @@ if(isAutomaticWeapon){
 		//speed = 20;
 		speed = projectileSpeed;
 			
-		var dir = sign(speed_array[0]);
+		var dir = sign(hspd);
 			
 		if(dir == -1){
 			direction = 180;

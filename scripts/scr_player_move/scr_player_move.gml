@@ -6,10 +6,6 @@ if(hp <= 0){
 
 scr_player_check_for_movements();
 
-move_obj(speed_array);
+move_obj(hspd, vspd);
 
 scr_player_set_sprites();
-
-//depth = -100;
-
-//canAttack = true;

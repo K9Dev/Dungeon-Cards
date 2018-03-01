@@ -6,8 +6,6 @@ if(enemy_hp <= 0){
 
 //script_execute(state);
 
-enemy_speed_array = [hspd, vspd];
-
 // Enemy Strategy
 // Enemy state
 switch (state){
@@ -26,7 +24,7 @@ switch (state){
 			case enemy_modus.patrol:
 				
 				log("patrol2");
-				if(place_meeting(x+speed_array[0], y, obj_Wall)){
+				if(place_meeting(x+hspd, y, obj_Wall)){
 					hspd = hspd*-1;
 				}
 				// When seeing player, switch modus to fight
@@ -66,5 +64,4 @@ switch (state){
 		}
 }
 // Move
-enemy_speed_array = [hspd, vspd];
-move_obj(enemy_speed_array);
+move_obj(hspd, vspd);

@@ -8,7 +8,7 @@ if(!onTheFloor){
 	
 	image_speed = 0;
 	
-	if(sign(speed_array[1]) > 0){
+	if(sign(vspd) > 0){
 		image_index = 1;
 	}else{
 		image_index = 0;
@@ -17,7 +17,7 @@ if(!onTheFloor){
 
 	image_speed = 1;
 	
-	if(speed_array[0] == 0){
+	if(hspd == 0){
 		scr_get_player_sprite(player_state.idle);
 		//log("Set Idle Sprite");
 	}else{
@@ -31,8 +31,8 @@ if(!onTheFloor){
 	}
 }
 
-if(speed_array[0] != 0){
-	image_xscale = sign(speed_array[0]);
+if(hspd != 0){
+	image_xscale = sign(hspd);
 }
 
 depth = -100;

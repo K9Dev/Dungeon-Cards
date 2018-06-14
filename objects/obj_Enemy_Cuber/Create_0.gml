@@ -3,3 +3,5 @@
 event_inherited();
 hspd = 3;
 modus = enemy_modus.patrol;
+action_rdy = true;
+interrupted = false;

@@ -8,6 +8,8 @@ enemy_speed_array = [hspd, vspd];
 // Gravity
 grav = 0.3;
 
+onTheFloor = false;
+
 // Speeds
 walkspd = 3;
 runspd = 5;

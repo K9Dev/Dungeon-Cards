@@ -3,7 +3,6 @@
 // Array to manage X and Y speeds
 hspd = 0;
 vspd = 0;
-enemy_speed_array = [hspd, vspd];
 
 // Gravity
 grav = 0.3;

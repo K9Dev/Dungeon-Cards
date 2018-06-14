@@ -1,6 +1,6 @@
 // Move while attack
 var onTheFloor = scr_player_check_for_movements();
-move_obj(speed_array); 
+move_obj(hspd, vspd); 
 
 // Create Ranged Attack
 var rangedWeapon = argument0;
@@ -16,7 +16,7 @@ switch(rangedWeapon){
 		var isAutomaticWeapon = obj_WeaponControler.handGunIsAutomatic;
 		var shootDelay = obj_WeaponControler.handGunShootDelay;
 		
-		scr_shoot_gun(speed_array, projectile, xOffset, yOffset, projectileSpeed, isAutomaticWeapon, shootDelay);
+		scr_shoot_gun(hspd, vspd, projectile, xOffset, yOffset, projectileSpeed, isAutomaticWeapon, shootDelay);
 		
 		if(!isAutomaticWeapon /*&& !key_attack_pressed*/){
 			state = player_state.move;

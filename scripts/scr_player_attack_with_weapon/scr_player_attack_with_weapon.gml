@@ -5,7 +5,7 @@ var weaponDmg = argument2;
 
 // Move while attack
 scr_player_check_for_movements();
-move_obj(speed_array); 
+move_obj(hspd, vspd); 
 
 sprite_index = weaponSprite;
 image_speed = 1;

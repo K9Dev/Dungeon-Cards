@@ -12,3 +12,6 @@ with(instance_place(x, y, Parent_Enemy)){
 		alarm[0] = room_speed / 5;
 	}
 }
+
+// Delete bullet after it hit an enemy
+instance_destroy();

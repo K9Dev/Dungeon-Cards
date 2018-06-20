@@ -10,6 +10,10 @@ if(place_meeting(x+hspd, y, obj_Wall)){
 }
 x += hspd;
 
+// Gravity
+
+if (vspd < 10) {vspd =+ 0.5};
+
 // Vertical collision
 if(place_meeting(x, y+vspd, obj_Wall)){
 	

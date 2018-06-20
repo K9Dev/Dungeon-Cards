@@ -7,7 +7,9 @@ if hspd == 0 {hspd = 2} else {hspd=sign(hspd)*2};
 if(place_meeting(x+hspd, y, obj_Wall)){
 	hspd = hspd*-1;
 }
+
 scr_move();
+
 /*
 // When seeing player, switch modus to fight
 if (instance_exists(obj_player)){

@@ -1,7 +1,7 @@
 /// @description Debug GUI
 
 if(debug){
-	draw_text(200, 470,"hp: " + string(can_take_damage));
+	draw_text(200, 470,"hp: " + string(hp));
 	draw_text(200, 500,"Spd: " + string(walkspd));
 	draw_text(200, 530,"Jumpspd: " + string(vspd));
 	draw_text(200, 560,"Air Jumps: " + string(airjump));

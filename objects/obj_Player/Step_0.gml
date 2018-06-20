@@ -1,7 +1,8 @@
 /// Step Event
 
 if(hp <= 0){
-	instance_destroy();
+	room_restart()
+	//instance_destroy();
 }
 scr_get_input();
 scr_check_for_inv();

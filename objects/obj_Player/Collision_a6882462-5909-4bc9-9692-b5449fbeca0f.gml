@@ -3,7 +3,7 @@
 
 if (can_take_damage){
 // Damage
-	hp -= 5; // hp -= other.dmg - armor;
+	hp -= 1; // hp -= other.dmg - armor;
 // Invi frames
 	can_take_damage = false;
 	alarm[3] = room_speed*2;

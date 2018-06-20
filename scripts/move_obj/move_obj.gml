@@ -4,6 +4,19 @@
 var hsp = argument0;
 var vsp = argument1;
 
+// Friction (horizontal)
+if (hspd != 0){
+	if (hspd - fric > 0){
+		hspd -= fric;
+	} else if (hspd + fric < 0){
+		hspd += fric;
+	} else {
+		hspd = 0;
+	}
+}
+// Gravity (vertical)
+vspd += grav;
+
 // Horizontal collision
 if(place_meeting(x+hsp, y, obj_Wall)){
 	

@@ -1,6 +1,6 @@
-// Move while attack
+// Move while attack -> moved this to step event
 var onTheFloor = scr_player_check_for_movements();
-move_obj(hspd, vspd); 
+//move_obj(hspd, vspd); 
 
 // Create Ranged Attack
 var rangedWeapon = argument0;

@@ -1,2 +1,2 @@
-/// Reset Gun Shoot
+/// @description Reset Gun Shoot
 canShoot = 1;

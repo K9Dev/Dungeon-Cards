@@ -3,9 +3,9 @@ var weaponSprite = argument0;
 var weaponHitboxSprite = argument1;
 var weaponDmg = argument2;
 
-// Move while attack
-scr_player_check_for_movements();
-move_obj(hspd, vspd); 
+// Move while attack -> took this out and moved it into the general move_obj() which gets called in the step event
+//scr_player_check_for_movements();
+//move_obj(hspd, vspd); 
 
 sprite_index = weaponSprite;
 image_speed = 1;

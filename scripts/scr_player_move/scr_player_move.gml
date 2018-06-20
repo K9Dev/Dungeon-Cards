@@ -1,11 +1,9 @@
 ///scr_player_move
 
-if(hp <= 0){
-	instance_destroy();
-}
+
 
 scr_player_check_for_movements();
 
-move_obj(hspd, vspd);
+//move_obj(hspd, vspd); // this also should not be here, since moving the player is not only used while in this state
 
-scr_player_set_sprites();
+//scr_player_set_sprites();

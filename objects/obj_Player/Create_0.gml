@@ -1,7 +1,7 @@
 /// @description Init Player
 
 // Turn to true for Debug Drawings on GUI
-debug = true;
+debug = false;
 
 // Moving and Jumping
 hspd = 0;
@@ -44,4 +44,3 @@ current_weapon = weapons.HandGun;
 has_weapon = true;
 canAttack = true;
 canShoot = 1;
-

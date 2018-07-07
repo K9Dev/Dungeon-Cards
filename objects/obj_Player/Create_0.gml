@@ -35,7 +35,8 @@ state = player_state.move;
 in_control = true;
 
 // Hp and Damage control
-hp = 3;
+hp_max = 5;
+hp = 5;
 can_take_damage = true;
 
 // Players Weapon

@@ -14,6 +14,6 @@ if (can_take_damage){
 		hspd += 10;
 	}
 // Lose control after taking hit
-	in_control = false; // if (other.stun)
-	alarm[4] = room_speed*0.3;
+	in_control = false; 
+	alarm[4] = room_speed*0.3; // (other.stun_length)
 }

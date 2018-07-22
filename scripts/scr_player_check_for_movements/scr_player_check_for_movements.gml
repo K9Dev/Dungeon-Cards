@@ -65,7 +65,7 @@ if (move == 1){
 
 // jump higher if jump key is hold
 if (jumping){
-	if (keyboard_check(vk_space) and vspd < 0){
+	if (key_jump_hold and vspd < 0){
 		vspd -= 0.1;
 	} else {
 		jumping = false;

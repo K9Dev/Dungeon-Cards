@@ -2,6 +2,9 @@
 
 if(enemy_hp <= 0){
 	instance_destroy();
+	instance_create_depth(x, y, depth, obj_draw_energy);
+	instance_create_depth(x, y, depth, obj_draw_energy);
+	instance_create_depth(x, y, depth, obj_draw_energy); //nice loop lalala
 }
 
 // If hit -> state = interupted

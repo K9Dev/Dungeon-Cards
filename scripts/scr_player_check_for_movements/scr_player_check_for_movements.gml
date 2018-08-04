@@ -119,6 +119,7 @@ if(onTheFloor) && (key_jump){
 // Check Dash State
 if(key_dash && hspd != 0 && canDash){
 	state = player_state.dash;
+	stamina = stamina - 10;
 	
 	// Set Move State
 	alarm[0] = room_speed / 6;
@@ -131,6 +132,7 @@ if(key_dash && hspd != 0 && canDash){
 if(key_attack && canAttack){
 	state = player_state.attack;
 	canAttack = false;
+	stamina = stamina-5;
 }
 
 return onTheFloor;

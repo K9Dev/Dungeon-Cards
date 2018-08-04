@@ -1,7 +1,7 @@
 /// @description Debug GUI
 
 if(debug){
-	draw_text(200, 470,"hp: " + string(hp));
+	draw_text(200, 470,"stamina: " + string(stamina));
 	draw_text(200, 500,"Spd: " + string(walkspd));
 	draw_text(200, 530,"Jumpspd: " + string(vspd));
 	draw_text(200, 560,"Air Jumps: " + string(airjump));
@@ -22,3 +22,9 @@ if(debug){
 	
 	draw_text(200, 750,"OnTheFloor:  = " + string(onTheFloor));
 }
+/*
+// Stamina bar
+var stamina_width = 64*(stamina/100);
+
+draw_sprite_stretched(spr_mana_bar, 0, x-30, y-32, stamina_width, 16);
+*/

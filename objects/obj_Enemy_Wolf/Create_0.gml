@@ -9,4 +9,4 @@ modus = enemy_modus.patrol;
 action_rdy = true;
 interrupted = false;
 onTheFloor = false;
-image_speed = 2;
+image_speed = 1;
